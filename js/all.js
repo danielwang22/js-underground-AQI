@@ -13,7 +13,7 @@ const townNumber = document.querySelectorAll('.town-aqi .town-aqi-number');
 class Aqi{
     constructor(){
         this.setting = {
-            url: 'http://opendata.epa.gov.tw/webapi/Data/REWIQA/?format=json',
+            url: 'https://opendata.epa.gov.tw/webapi/Data/REWIQA/?format=json',
             type: 'GET',
             contentType: "application/json",
             dataType:'jsonp',
